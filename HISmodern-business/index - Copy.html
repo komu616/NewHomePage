@@ -18,8 +18,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- Font Awesome CSS here -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!--[if IE 7]>
@@ -96,7 +97,7 @@
             </li>
           </ul>
           <div class="btn-group navbar-right" style=" margin-top:10px;">
-          <button type="button" class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone-alt"></i> お問合せ <span class="caret"></span></button>
+          <button type="button" class="btn btn-primary navbar-btn dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone-alt"></i> お問合せ <span class="caret"></span></button>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">フランクフルト支店</a></li>
             <li><a href="#">ミュンヘン支店</a></li>
@@ -201,8 +202,8 @@
            </div>
           </div>
           <div class="col-sm-6 col-xs-12 col-sm-push-6"><img class="img-responsive img-home-portfolio" src="http://placehold.it/555x555"></div>
-          <div class="col-sm-6 col-xs-12 col-sm-pull-6" style="background:#3498DB; max-width:555px; min-height:555px;">
-          <div class="container">
+          <div class="col-sm-6 col-xs-12 col-sm-pull-6">
+          <div class="container" style="background:#3498DB;">
           <h2 style="color:#FFF;"><i class="icon-plane"></i> 航空券オンライン検索・予約</h2>
           <form class="form-inline" style="margin-bottom:15px;">
             <div class="form-group col-sm-6">
@@ -222,46 +223,42 @@
               <input type="text" id="arrivalDate" class="form-control" placeholder="復路 出発日を選択">
             </div>
             <div class="form-group col-sm-12">
-              <select name="adult">
-                  <option value="0">大人</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+              <select class="form-control col-sm-4" placeholder="大人">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
               </select>
-            
-              <select name="child">
-                  <option value="0">子供</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+              <select class="form-control col-sm-4" placeholder="子供">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
               </select>
-              <select name="infant">
-                  <option value="0">幼児</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+              <select class="form-control col-sm-4" placeholder="幼児">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
               </select>
             </div>
             <div class="col-sm-4">
-                <input type="submit" value="Search" class="btn btn-inverse">
+                <input type="submit" value="Search" class="btn btn-danger">
             </div>
           </form>
           </div>
@@ -611,15 +608,5 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-    
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-    <script src="js/application.js"></script>    
   </body>
 </html>
