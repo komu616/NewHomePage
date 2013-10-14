@@ -35,7 +35,6 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -51,7 +50,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav" style="margin: 15px 0 0 0;">
+          <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">航空券<b class="caret"></b></a>
               <ul class="dropdown-menu" role="menu">
@@ -95,7 +94,7 @@
               </ul>
             </li>
           </ul>
-          <div class="btn-group navbar-right" style=" margin-top:10px;">
+          <div class="btn-group navbar-right">
           <button type="button" class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone-alt"></i> お問合せ <span class="caret"></span></button>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">フランクフルト支店</a></li>
@@ -182,46 +181,51 @@
     <div class="section-colored01">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 hidden-xs">
-            <div class="col-sm-2" style="background:#3498DB; border: 10px solid #2E88C7; color:#FFFFFF; ">
-            <h6>新着情報</h6>
+          <div class="col-sm-12 hidden-xs clearfix" style="margin: 0 0 20px 0;">
+            <div class="col-sm-1" style="background:#3498DB; border-bottom: 10px solid #2E88C7; border-top: 10px solid #2E88C7; border-left: 10px solid #2E88C7; color:#FFFFFF; text-align:center; height:114px; padding: 40px 0 0 0">
+            <h7>新着情報</h7>
             </div>
-            <div class="col-sm-10" style="background:#FFFFFF; border: 10px solid #2E88C7">
-            <div class="col-sm-7">
-            <ul class="list-unstyled">
-                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえお</a> 2013.12.12</li>
-                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえお</a> 2013.12.12</li>
-                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえお</a> 2013.12.12</li>
-                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえお</a> 2013.12.12</li>
+            <div class="col-sm-11" style="background:#FFFFFF; border: 10px solid #2E88C7; padding:0; margin:0">
+            <div class="col-sm-8">
+            <ul class="list-unstyled" style="margin:8px 0 0 0">
+                <li><span class="label label-danger" style="font-size:8px;">NEW</span><a href="#"> あめんぼあおいなあいうえおあめんぼあおいなあいうえおあめんぼあおいな</a> 2013.12.12</li>
+                <li><span class="label label-danger" style="font-size:8px;">NEW</span><a href="#"> あめんぼあおいなあいうえおあめんぼあおいなあいうえおあめんぼあおいな</a> 2013.12.12</li>
+                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえおあめんぼあおいな</a> 2013.12.12</li>
+                <li><a href="#">あめんぼあおいなあいうえおあめんぼあおいなあいうえおあめんぼあおいな</a> 2013.12.12</li>
             </ul>
             </div>
-            <div class="col-sm-5">
-            <img class="img-responsive img-home-portfolio" src="http://placehold.it/400x100">
+            <div class="col-sm-4" style="padding:0;">
+            <img class="img-responsive img-home-portfolio" src="http://placehold.it/400x110" style="margin:0;">
             </div>
            </div>
           </div>
-          <div class="col-sm-6 col-xs-12 col-sm-push-6"><img class="img-responsive img-home-portfolio" src="http://placehold.it/555x555"></div>
-          <div class="col-sm-6 col-xs-12 col-sm-pull-6" style="background:#3498DB; max-width:555px; min-height:555px;">
+          <div class="col-sm-6 col-xs-12 col-sm-push-6" style="margin:0;"><img class="img-responsive img-home-portfolio" src="http://placehold.it/560x560"></div>
+          <div class="col-sm-6 col-xs-12 col-sm-pull-6" style="margin:0 0 0 15px; padding:0; background:#3498DB; max-width:560px; min-height:560px;">
           <div class="container">
           <h2 style="color:#FFF;"><i class="icon-plane"></i> 航空券オンライン検索・予約</h2>
           <form class="form-inline" style="margin-bottom:15px;">
-            <div class="form-group col-sm-6">
+            <div class="form-group col-sm-6 col-xs-12">
               <label class="sr-only control-label" for="departPlace">出発地</label>
               <input type="text" id="departPlace" class="form-control" placeholder="出発地を入力">
+              <span class="input-icon fui-check-inverted"></span>
             </div>
-            <div class="form-group col-sm-6">
+            <div class="form-group col-sm-6 col-xs-12">
               <label class="sr-only control-label" for="arrivalPlace">目的地</label>
               <input type="text" id="arrivalPlace" class="form-control" placeholder="出発地を入力">
+              <span class="input-icon fui-check-inverted"></span>
             </div>
-            <div class="form-group col-sm-6">
+            <div class="form-group col-sm-6 col-xs-12">
               <label class="sr-only control-label" for="departDate">往路 出発日</label>
               <input type="text" id="departDate" class="form-control" placeholder="往路 出発日を選択">
+              <span class="input-icon fui-check-inverted"></span>
             </div>
-            <div class="form-group col-sm-6">
+            <div class="form-group col-sm-6 col-xs-12">
               <label class="sr-only control-label" for="arrivalDate">復路 出発日</label>
               <input type="text" id="arrivalDate" class="form-control" placeholder="復路 出発日を選択">
+              <span class="input-icon fui-check-inverted"></span>
             </div>
-            <div class="form-group col-sm-12">
+            <div class="form-group col-lg-12 col-xs-12">
+            <div class="form-group col-sm-3 col-xs-12">
               <select name="adult">
                   <option value="0">大人</option>
                   <option value="1">1</option>
@@ -234,7 +238,8 @@
                   <option value="8">8</option>
                   <option value="9">9</option>
               </select>
-            
+            </div>
+            <div class="form-group col-sm-3 col-xs-12">
               <select name="child">
                   <option value="0">子供</option>
                   <option value="1">1</option>
@@ -247,6 +252,9 @@
                   <option value="8">8</option>
                   <option value="9">9</option>
               </select>
+              <span class="help-block">2～11</span>
+            </div>
+            <div class="form-group col-sm-3 col-xs-12">
               <select name="infant">
                   <option value="0">幼児</option>
                   <option value="1">1</option>
@@ -259,6 +267,8 @@
                   <option value="8">8</option>
                   <option value="9">9</option>
               </select>
+              <span class="help-block">0～1</span>
+            </div>
             </div>
             <div class="col-sm-4">
                 <input type="submit" value="Search" class="btn btn-inverse">

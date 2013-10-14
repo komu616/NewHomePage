@@ -67,6 +67,12 @@
                     return _this.options.menuStyle.replace('dropdown-', 'dropdown-arrow-');
                 }
             });
+            menu.addClass(this.options.gryficonStyle);
+            menuArrow.addClass(function() {
+                if (_this.options.gryficonStyle) {
+                    return _this.options.gryficonStyle.replace('glyphicon-');
+                }
+            });
             this.checkDisabled();
             this.checkTabIndex();
             this.clickListener();
@@ -105,7 +111,8 @@
                 "<div class='btn-group select'>" +
                     "<i class='dropdown-arrow'></i>" +
                     "<button class='btn dropdown-toggle clearfix' data-toggle='dropdown'>" +
-                        "<span class='filter-option pull-left'></span>&nbsp;" +
+                        "<span class='glyphicon glyphicon-star pull-left'></span>" +
+                        "<span class='filter-option'></span>&nbsp;" +
                         "<span class='caret'></span>" +
                     "</button>" +
                     "<ul class='dropdown-menu' role='menu'>" +
@@ -406,6 +413,7 @@
         noneSelectedText : 'Nothing selected',
         width: null,
         menuStyle: null,
+        gryficonStyle: null,
         toggleSize: null
     }
 

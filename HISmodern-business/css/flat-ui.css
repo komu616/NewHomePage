@@ -1,47 +1,3 @@
-/*
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-black-webfont.eot');
-  src: url('../fonts/lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black-webfont.woff') format('woff'), url('../fonts/lato/lato-black-webfont.ttf') format('truetype'), url('../fonts/lato/lato-black-webfont.svg#latoblack') format('svg');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-bold-webfont.eot');
-  src: url('../fonts/lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bold-webfont.woff') format('woff'), url('../fonts/lato/lato-bold-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bold-webfont.svg#latobold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-bolditalic-webfont.eot');
-  src: url('../fonts/lato/lato-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bolditalic-webfont.woff') format('woff'), url('../fonts/lato/lato-bolditalic-webfont.ttf') format('truetype'), url('../fonts/lato/lato-bolditalic-webfont.svg#latobold_italic') format('svg');
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-italic-webfont.eot');
-  src: url('../fonts/lato/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-italic-webfont.woff') format('woff'), url('../fonts/lato/lato-italic-webfont.ttf') format('truetype'), url('../fonts/lato/lato-italic-webfont.svg#latoitalic') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-light-webfont.eot');
-  src: url('../fonts/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-light-webfont.woff') format('woff'), url('../fonts/lato/lato-light-webfont.ttf') format('truetype'), url('../fonts/lato/lato-light-webfont.svg#latolight') format('svg');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato/lato-regular-webfont.eot');
-  src: url('../fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular-webfont.woff') format('woff'), url('../fonts/lato/lato-regular-webfont.ttf') format('truetype'), url('../fonts/lato/lato-regular-webfont.svg#latoregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
 @font-face {
   font-family: 'Flat-UI-Icons';
   src: url('../fonts/Flat-UI-Icons.eot');
@@ -244,7 +200,7 @@ a:focus {
   border-radius: 3px;
 }
 .img-comment {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.231;
   font-style: italic;
   margin: 24px 0;
@@ -304,9 +260,6 @@ a.text-info:focus {
 a.text-inverse:hover,
 a.text-inverse:focus {
   color: #cccccc;
-}
-.text-muted {
-  color: #bdc3c7;
 }
 a.text-muted:hover,
 a.text-muted:focus {
@@ -436,11 +389,14 @@ address {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 .btn-block {
   white-space: normal;
+}
+.select .btn {
+  color: #b2bcc5;
 }
 .btn {
   border: none;
@@ -465,7 +421,7 @@ address {
 .btn:focus,
 .btn-group:focus .btn.dropdown-toggle {
   background-color: #cacfd2;
-  color: #ffffff;
+  color: #b2bcc5;
   outline: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -477,7 +433,7 @@ address {
 .btn-group.open .btn.dropdown-toggle,
 .btn.active {
   background-color: #a1a6a9;
-  color: rgba(255, 255, 255, 0.75);
+  color: #b2bcc5;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -616,17 +572,20 @@ address {
   background-color: #2c3e50;
 }
 .btn.btn-default {
-  background-color: #bdc3c7;
+  background-color: #FFFFFF;
+  border: 2px solid #52A7E0;
 }
 .btn.btn-default:hover,
 .btn.btn-default:focus,
 .btn-group:focus .btn.btn-default.dropdown-toggle {
-  background-color: #cacfd2;
+  background-color: #FFFFFF;
+  border: 2px solid #2E88C7;
+
 }
 .btn.btn-default:active,
 .btn-group.open .btn.btn-default.dropdown-toggle,
 .btn.btn-default.active {
-  background-color: #a1a6a9;
+  background-color: #FFFFFF;
 }
 .btn > [class^="fui-"] {
   margin: 0 1px;
@@ -823,7 +782,7 @@ address {
   color: #526476;
   display: inline-block;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 28px;
   padding: 22px 20px;
   text-shadow: none;
@@ -1145,7 +1104,9 @@ address {
   width: 100%;
 }
 .select .btn {
-  width: 220px;
+  width: 100px;
+  margin:0 5px 0 0;
+  border-radius: 6px;
 }
 .select .btn.btn-hg .filter-option {
   left: 20px;
@@ -1178,13 +1139,18 @@ address {
 }
 .select .btn .filter-option {
   height: 26px;
-  left: 13px;
+  left: 30px;
   overflow: hidden;
   position: absolute;
   right: 33px;
-  text-align: left;
-  top: 10px;
+  top: 11px;
 }
+.select .btn .glyphicon {
+  height: 26px;
+  overflow: hidden;
+  top: 4px;
+}
+
 .select .btn .caret {
   position: absolute;
   right: 16px;
@@ -1221,11 +1187,11 @@ address {
   cursor: default;
 }
 .select .caret {
-  border-bottom-color: #ffffff;
-  border-top-color: #ffffff;
+  border-bottom-color: #b2bcc5;
+  border-top-color: #b2bcc5;
 }
 textarea {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 24px;
   padding: 5px 11px;
 }
@@ -1249,13 +1215,13 @@ label {
   color: #b2bcc5;
 }
 .form-control {
-  border: none;
+  border: 2px solid #52A7E0;
   color: #34495e;
-  padding: 8px 12px;
-  margin: 10px 0px;
-  height: 40px;
+  padding: 8px 12px 8px 55px;
+  margin: 5px 0px;
+  height: 45px;
   -webkit-appearance: none;
-  border-radius: 3px;
+  border-radius: 6px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1267,7 +1233,7 @@ label {
 }
 .form-group.focus .form-control,
 .form-control:focus {
-  border-color: #52A7E0;
+  border-color: #2E88C7;
   outline: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1452,15 +1418,14 @@ textarea.input-hg {
 }
 .form-control + .input-icon {
   position: absolute;
-  top: 2px;
-  right: 2px;
-  line-height: 37px;
+  top: 10px;
   vertical-align: middle;
-  font-size: 20px;
-  color: #b2bcc5;
+  font-size: 22px;
+  color: #2E88C7;
   background-color: #ffffff;
   padding: 0 12px 0 0;
   border-radius: 3px;
+  left: 30px;	
 }
 .input-hg + .input-icon {
   line-height: 49px;
@@ -2320,7 +2285,7 @@ fieldset[disabled] .form-control + .input-icon,
 }
 .has-switch span {
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   float: left;
   height: 29px;
@@ -2441,7 +2406,7 @@ fieldset[disabled] .form-control + .input-icon,
 }
 .share-label {
   float: left;
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 5px;
   width: 50%;
 }
@@ -2563,7 +2528,7 @@ fieldset[disabled] .form-control + .input-icon,
   width: 82px;
 }
 .tile p {
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 33px;
 }
 .tile-image {
@@ -3289,16 +3254,15 @@ body.vjs-full-window {
 }
 footer {
   background-color: #edeff1;
-  color: #bac1c8;
-  font-size: 15px;
+  color: #888888;
+  font-size: 14px;
   padding: 0;
 }
 footer a {
   color: #9aa4af;
-  font-weight: 700;
 }
 footer p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
 }
 .footer-title {
@@ -3564,7 +3528,7 @@ html, body {
 }
 
 body {
-  padding-top: 91px; /* body padding for fixed top nav */
+  padding-top: 95px; /* body padding for fixed top nav */
   font-family:  "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 }
 
@@ -3600,14 +3564,15 @@ h6,
 }
 
 .navbar-nav{
-  font-size:14px;	
+  font-size:14px;
+  margin: 15px 0 0 0;	
 
 }
 
 /* Page Sections */
 
 .section-colored01 {
-  padding: 10px 0 0px 0;
+  padding: 20px 0 0px 0;
 }
 
 .section, .section-colored {
