@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="bootstrap.less" server="www.his-germany.de" local="130245969280000000" remote="130258719300000000" />
-<file name="core.less" server="www.his-germany.de" local="130245969280000000" remote="130258719300000000" />
-<file name="extras.less" server="www.his-germany.de" local="130245969280000000" remote="130258719300000000" />
-<file name="font-awesome-ie7.less" server="www.his-germany.de" local="130245969280000000" remote="130258719310000000" />
-<file name="font-awesome.less" server="www.his-germany.de" local="130245969280000000" remote="130258719310000000" />
-<file name="icons.less" server="www.his-germany.de" local="130245969280000000" remote="130258719310000000" />
-<file name="mixins.less" server="www.his-germany.de" local="130245969280000000" remote="130258719310000000" />
-<file name="path.less" server="www.his-germany.de" local="130245969280000000" remote="130258719310000000" />
-<file name="variables.less" server="www.his-germany.de" local="130245969280000000" remote="130258719320000000" />
+<file name="bootstrap.less" server="www.his-germany.de" local="130245969280000000" remote="130270144230000000" />
+<file name="core.less" server="www.his-germany.de" local="130245969280000000" remote="130270144230000000" />
+<file name="extras.less" server="www.his-germany.de" local="130245969280000000" remote="130270144240000000" />
+<file name="font-awesome-ie7.less" server="www.his-germany.de" local="130245969280000000" remote="130270144240000000" />
+<file name="font-awesome.less" server="www.his-germany.de" local="130245969280000000" remote="130270144250000000" />
+<file name="icons.less" server="www.his-germany.de" local="130245969280000000" remote="130270144250000000" />
+<file name="mixins.less" server="www.his-germany.de" local="130245969280000000" remote="130270144250000000" />
+<file name="path.less" server="www.his-germany.de" local="130245969280000000" remote="130270144260000000" />
+<file name="variables.less" server="www.his-germany.de" local="130245969280000000" remote="130270144260000000" />
 </dwsync>
