@@ -3605,7 +3605,7 @@ h6,
 }
 
 .section-colored {
-  background-color: #ECF0F1; /* change this to change the background color of a colored section */
+  background-color:#fadd80; /* change this to change the background color of a colored section */
 }
 
 .sidebar {
@@ -3724,7 +3724,7 @@ background: #333333;
 /* Footer Styles */
 footer {
   padding: 50px 0;
-  background: #cccccc;
+  background:  #ECF0F1;
 }
 
 /* Responsive Styles */
