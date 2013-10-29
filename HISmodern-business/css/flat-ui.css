@@ -1238,6 +1238,7 @@ label {
   color: #b2bcc5;
 }
 .form-control {
+  background-color: #FFF;
   border: 1px solid #52A7E0;
   color: #34495e;
   padding: 8px 12px 8px 55px;
@@ -1445,7 +1446,6 @@ textarea.input-hg {
   vertical-align: middle;
   font-size: 22px;
   color: #2E88C7;
-  background-color: #ffffff;
   padding: 0 12px 0 0;
   border-radius: 3px;
   left: 30px;	
@@ -2051,7 +2051,9 @@ fieldset[disabled] .form-control + .input-icon,
   -o-transition: 0.25s;
   transition: 0.25s;
   -webkit-backface-visibility: hidden;
-}
+  z-index:10000;
+  position: absolute ;
+  }
 .dropdown-menu.typeahead {
   display: none;
   opacity: 1;
@@ -3534,6 +3536,22 @@ footer p {
 .mal {
   margin-left: 20px;
 }
+.ops {
+	opacity:0.9;
+}
+.opm {
+	opacity:0.8;
+}
+.opls {
+	opacity:0.7;
+}
+.oplm {
+	opacity:0.6;
+}
+.opll {
+	opacity:0.5;
+}
+
 
 /* 
 Custom CSS for H.I.S. Deutschland Touristik GmbH
@@ -3567,6 +3585,8 @@ h6,
 .h6 {
   font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   line-height: 1.1;
+  z-index:100;
+  position:relative;
 }
 
 .img-home-portfolio,
@@ -3580,7 +3600,7 @@ h6,
 }
 
 .navbar-custom {
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.95);
   border-bottom: 5px solid #2E88C7;
 }
 

@@ -20,6 +20,12 @@ h2,
 .h2 {
   font-size: 20px;
 }
+.navbar .container{
+	padding:0;	
+}
+.leftmain{
+	margin:0;	
+}
 }
 @media (max-width: 992px) {
 
