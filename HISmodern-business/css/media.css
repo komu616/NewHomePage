@@ -1,9 +1,16 @@
+/* Responsive Styles */
+@media (max-width: 480px) {
+.pagination ul li.previous > a,  .pagination ul li.next > a,  .pagination ul li.previous > span,  .pagination ul li.next > span {
+	margin-right: 0;
+}
+}
 @media (min-width: 768px) {
-
+.lead {
+	font-size: 21px;
+}
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
@@ -11,6 +18,9 @@
 }
 
 @media (max-width: 768px) {
+.container > .navbar-header, .container > .navbar-collapse {
+margin: 0;
+}
 h1,
 .h1 {
   font-size: 20px;
@@ -20,17 +30,242 @@ h2,
 .h2 {
   font-size: 20px;
 }
+h2.white {
+  font-size: 18px;
+}
+.form-control {
+	padding: 0px 12px 0 40px;
+	margin: 2px 0px;
+	height: 35px;
+}
+.form-group{
+	margin:0;
+}
 .navbar .container{
 	padding:0;	
 }
-.leftmain{
-	margin:0;	
+.rightmain-outer{
+	padding:0;
 }
+.leftmain-outer{
+	padding:0;
+}
+.rightmain{
+	border: none;
+	border-radius:0;
+}
+.leftmain{
+	border: none;
+	border-radius:0;
+}
+.form-control + .input-icon {
+	top: 5px;
+	left: 20px;
+	vertical-align: middle;
+	font-size: 22px;
+	padding: 0 12px 0 0;
+}
+.select.select-block {
+	margin: 3px 0 0 0;
+}
+
+.select .btn, .select .btn:hover, .select .btn:focus {
+	margin:0;
+	padding: 3px 8px 4px 5px;
+}
+.select .btn .filter-option {
+	left: 12px;
+	overflow: hidden;
+	position: absolute;
+	top: 3px;
+}
+/*.select .btn .glyphicon {
+	display:none;
+}*/
+.select .btn .caret {
+	position: absolute;
+	right: 7px;
+	margin-top: 11px;
+}
+.radio, .checkbox {
+padding-left: 20px;
+margin: 0px;
+/*margin-bottom: 10px;
+vertical-align: middle;
+form .submit-button button.btn{
+	font-size:14px;*/
+}
+.help-block {
+	display: block;
+	margin:3px 0 0 10px;
+}
+
 }
 @media (max-width: 992px) {
-
 }
 
 @media (max-width: 1200px) {
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+ .tile.tile-hot:before {
+ background-image: url(../image/tile/ribbon-2x.png);
+}
+ .todo li {
+ background-image: url(../image/todo/todo-2x.png);
+}
+ .todo li.todo-done {
+ background-image: url(../image/todo/done-2x.png);
+}
+ .login {
+ background-image: url(../image/login/imac-2x.png);
+}
+}
+@-webkit-keyframes sharp {
+ 0% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ background: #ebedee;
+ border-radius: 0;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@-webkit-keyframes sharp {
+ 0% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ background: #ebedee;
+ border-radius: 0;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@-moz-keyframes sharp {
+ 0% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ background: #ebedee;
+ border-radius: 0;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@-o-keyframes sharp {
+ 0% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ background: #ebedee;
+ border-radius: 0;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes sharp {
+ 0% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 50% {
+ background: #ebedee;
+ border-radius: 0;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);
+}
+ 100% {
+ background: #e74c3c;
+ border-radius: 10px;
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
 
 }

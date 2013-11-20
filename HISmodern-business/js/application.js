@@ -13,6 +13,10 @@ String.prototype.repeat = function(num) {
     $("select[name='adult']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
     $("select[name='child']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
     $("select[name='infant']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
+    $("select[name='rooms']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
+    $("select[name='op-departPlace']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
+    $("select[name='op-time']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
+    $("select[name='op-theme']").selectpicker({style: 'btn-default', menuStyle: 'dropdown-inverse'});
 	
     // Switch
     $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();

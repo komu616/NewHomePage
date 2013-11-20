@@ -113,7 +113,7 @@
                     "<button class='btn dropdown-toggle clearfix' data-toggle='dropdown'>" +
                         "<span class='glyphicon glyphicon-star pull-left'></span>" +
                         "<span class='filter-option'></span>&nbsp;" +
-                        "<span class='caret'></span>" +
+                        "<div class='caret-outer'><span class='caret'></span></div>" +
                     "</button>" +
                     "<ul class='dropdown-menu' role='menu'>" +
                     "</ul>" +
