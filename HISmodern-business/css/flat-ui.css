@@ -1759,7 +1759,7 @@ textarea.input-hg {
 	-o-transition: 0.25s;
 	transition: 0.25s;
 	-webkit-backface-visibility: hidden;
-	z-index:10000;
+	z-index:998;
 	position: absolute;
 }
 .dropdown-menu.typeahead {
@@ -3043,7 +3043,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-top: 15px;
 }
 .navbar-fixed-top {
-	z-index: 10001;
+	z-index: 999;
 }
 .navbar-custom {
 	background-color: rgba(255,255,255,0.95);
@@ -3074,7 +3074,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	padding: 30px 0;
 }
 .section-colored01 {
-	/*background: #0095CC;*/
 	background: #5fabdd; /* Old browsers */
 	background: -moz-linear-gradient(top, #5fabdd 50%, #2f9ad8 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #5fabdd), color-stop(100%, #2f9ad8)); /* Chrome,Safari4+ */
@@ -3083,6 +3082,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	background: -ms-linear-gradient(top, #5fabdd 50%, #2f9ad8 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #5fabdd 50%, #2f9ad8 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fabdd', endColorstr='#2f9ad8', GradientType=0 ); /* IE6-9 */
+
 }
 .news-title {
 	background:#2793D3;
@@ -3185,7 +3185,7 @@ h4.flightSpecialTtl {
 	border-top:#F1C40F 8px solid;
 }
 .flightSpecialRow .glyphicon {
-	font-size: 20px;
+	font-size: 18px;
 }
 .flightSpecialRow div:nth-child(1) .glyphicon-chevron-right {
 	color:#E74C3C;
@@ -3202,24 +3202,41 @@ h4.flightSpecialTtl {
 .air-panel h6 {
 	font-weight:600;
 }
-.airline-wing {
+.air-panel .airline-wing {
 	max-width:40px;
 	height:auto;
 	margin:0 2px 5px 0;
+}
+.air-panel .price25{
+	font-size:22px; 
+	font-weight:bold; 
+	color:#FF4950; 
+	padding:0 3px 0 3px;	
+}
+.air-panel .endDate{
+	font-size:12px; 
+	font-weight:bold;
+	color:#FFF; 
+	background:#d9534f;
+	max-width:70px;
+	padding:3px;
+	margin:0 5px 0 0;
+}
+.air-panel .seasonarity{
+	font-size:12px; 
+}
+.air-panel .glyphicon-chevron-right{
+	left:-1%;
 }
 .flightSpecialRow a {
 	color:#444444;
 }
 .flightSpecialRow a:hover .air-panel {
-	color:#666666;
-}
-.flightSpecialRow a:hover .overlay {
-	visibility: visible;
-	background: rgba(255, 255, 255, 0.5);
+	color:#888888;
 }
 .flightSpecialRow a .overlay {
 	visibility: hidden;
-	left: 15px;
+	left: 5%;
 	position: absolute;
 	top: 0;
 	width: 263px;
@@ -3227,10 +3244,36 @@ h4.flightSpecialTtl {
 	padding-top: 40px;
 	color:#444444;
 }
-.flightSpecialRow .overlay, .flightSpecialRow .overlay h2, .flightSpecialRow .overlay .glyphicon{
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+.flightSpecialRow a:hover .overlay {
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.7);
+
+}
+.flightSpecialRow a .overlay h4 {
+	text-align: center;
+	top:5%;
+	right:-23%;
+	max-width: 130px;
+	padding:10px;
+	color: transparent;
+	display: block;
+	border-radius:4px;
+}
+.flightSpecialRow a:hover .overlay h4 {
+	top:-20%;
+	right:-23%;
+	color:#FFF;
+	background:rgba(35, 50, 65, 0.9);
+	display: block;
+}
+.flightSpecialRow a .overlay .glyphicon {
+	font-size:14px;
+	
+}
+.flightSpecialRow a .overlay, .flightSpecialRow a .overlay h4 {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .section-colored {
 	background-color:#F9F4ED; /* change this to change the background color of a colored section */
@@ -3286,5 +3329,6 @@ h4.flightSpecialTtl {
 /* Footer Styles */
 footer {
 	padding: 50px 0;
-	background:  #ECF0F1;
+	background: #ECF0F1;
+	border-top: rgba(0, 0, 0, 0.1) 1px solid;
 }
