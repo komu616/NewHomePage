@@ -386,7 +386,7 @@ $('#myModal').modal({
     keyboard: true ,
 //  エスケープキーで閉じるか否か。(デフォルト) true
 
-    show: true,
+    show: false,
 //  初期表示を行うか否か。(デフォルト) true
 
 	loading: false,

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="bootstrap.css" server="www.his-germany.de" local="130258117463659998" remote="130276084710000000" />
-<file name="style.css" server="www.his-germany.de" local="130258930816750000" remote="130270144350000000" />
-<file name="flat-ui.css" server="www.his-germany.de" local="130294380149848566" remote="130294419260000000" />
-<file name="media.css" server="www.his-germany.de" local="130290051026250000" remote="130290051120000000" />
-<file name="bootstrap-modal.css" server="www.his-germany.de" local="130294380913754816" remote="130294419300000000" />
+<file name="bootstrap.css" server="www.his-germany.de" local="130258117463659998" remote="130295203730000000" />
+<file name="style.css" server="www.his-germany.de" local="130258930816750000" remote="130295203880000000" />
+<file name="flat-ui.css" server="www.his-germany.de" local="130295254810000000" remote="130295255800000000" />
+<file name="media.css" server="www.his-germany.de" local="130295042077652500" remote="130295203760000000" />
+<file name="bootstrap-modal.css" server="www.his-germany.de" local="130294380913754816" remote="130295203720000000" />
+<file name="bootstrap.min.css" server="www.his-germany.de" local="130213919000000000" remote="130295203740000000" />
 </dwsync>

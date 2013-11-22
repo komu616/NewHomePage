@@ -26,7 +26,7 @@
 <!-- Bootstrap-Modal CSS here -->
 <link href="css/bootstrap-modal.css" rel="stylesheet" />
 <!--[if IE 7]>
-      <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
     <![endif]-->
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,8 +37,9 @@
 
 </head>
 <body>
-<nav class="navbar navbar-fixed-top navbar-custom" role="navigation">
-  <div class="container prn">
+
+<nav class="navbar navbar-fixed-top navbar-custom navbar-default" role="navigation">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span></button>
       <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) --> 
@@ -85,33 +86,24 @@
             <li><a href="#">イギリス</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone-alt"></i> お問合せ <b class="caret"></b></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">フランクフルト支店<br>
-              <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)69 5600 510</a></li>
-            <li><a href="#">ミュンヘン支店<br>
-              <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)89 5432 9900</a></li>
-            <li><a href="#">デュッセルドルフ支店<br>
-              <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)211 1759 900</a></li>
-          </ul>
-        </li>
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search!" >
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-      </span>
-    </div><!-- /input-group -->
-      </form>
+      <div class="btn-group navbar-right hidden-xs hidden-sm hidden-md">
+        <button type="button" class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-phone-alt"></i> お問合せ <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-inverse" role="menu">
+          <li><a href="#">フランクフルト支店<br>
+            <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)69 5600 510</a></li>
+          <li><a href="#">ミュンヘン支店<br>
+            <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)89 5432 9900</a></li>
+          <li><a href="#">デュッセルドルフ支店<br>
+            <span class="glyphicon glyphicon-phone-alt"></span> +49 (0)211 1759 900</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <!-- /.navbar-collapse -->
   </div>
   <!-- /.container --> 
 </nav>
-<!-- /.navbar -->
-
 <div class="section-colored01">
   <div class="container pbl">
     <div class="row hidden-sm hidden-xs mbl">
@@ -337,40 +329,36 @@
       <div class="col-sm-12">
         <h4 class="pbs white flightSpecialTtl"><i class="glyphicon glyphicon-plane"></i> スペシャルオファー</h4>
         <div class="row flightSpecialRow">
-          <div class="col-md-3 col-sm-6 mts"><a href="#">
-            <div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_nh.gif">
-              <h6 class="inline-block">全日空</h6>
-              <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p>
-              <i class="glyphicon glyphicon-chevron-right" ></i> </div>
+          <div class="col-md-3 col-sm-6 mts"><a href="#"><div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_nh.gif">
+            <h6 class="inline-block">全日空</h6>
+            <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p> <i class="glyphicon glyphicon-chevron-right" ></i>
+            </div>
             <div class="overlay hidden-md hidden-sm hidden-xs">
-              <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
+            <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
             </div>
             </a></div>
-          <div class="col-md-3 col-sm-6 mts"><a href="#">
-            <div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_af.gif">
-              <h6 class="inline-block">エールフランス</h6>
-              <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p>
-              <i class="glyphicon glyphicon-chevron-right" ></i> </div>
+          <div class="col-md-3 col-sm-6 mts"><a href="#"><div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_af.gif">
+            <h6 class="inline-block">エールフランス</h6>
+            <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p> <i class="glyphicon glyphicon-chevron-right" ></i>
+            </div>
             <div class="overlay hidden-md hidden-sm hidden-xs">
-              <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
+            <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
             </div>
             </a></div>
-          <div class="col-md-3 col-sm-6 mts"><a href="#">
-            <div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_lh.gif">
-              <h6 class="inline-block">ルフトハンザ</h6>
-              <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">100</span><span>€～</span></p>
-              <i class="glyphicon glyphicon-chevron-right" ></i> </div>
+          <div class="col-md-3 col-sm-6 mts"><a href="#"><div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_lh.gif">
+            <h6 class="inline-block">ルフトハンザ</h6>
+            <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">100</span><span>€～</span></p> <i class="glyphicon glyphicon-chevron-right" ></i>
+            </div>
             <div class="overlay hidden-md hidden-sm hidden-xs">
-              <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
+            <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
             </div>
             </a></div>
-          <div class="col-md-3 col-sm-6 mts"><a href="#">
-            <div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_ba.gif">
-              <h6 class="inline-block">ブリティッシュ・エアウェイズ</h6>
-              <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p>
-              <i class="glyphicon glyphicon-chevron-right" ></i> </div>
+          <div class="col-md-3 col-sm-6 mts"><a href="#"><div class="air-panel"><img class="img-responsive airline-wing inline-block" src="image/airline/airlineWing/t_ba.gif">
+            <h6 class="inline-block">ブリティッシュ・エアウェイズ</h6>
+            <p class="seasonarity inline-block"><span class="endDate inline-block">12/31<small>まで</small></span>11～12月<small>出発</small><span class="price25">1000</span><span>€～</span></p> <i class="glyphicon glyphicon-chevron-right" ></i>
+            </div>
             <div class="overlay hidden-md hidden-sm hidden-xs">
-              <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
+            <h4><i class="glyphicon glyphicon-search"></i> 詳細を見る</h4>
             </div>
             </a></div>
         </div>
@@ -635,9 +623,7 @@
     <div class="row">
       <div class="col-md-12">
         <h4>メールアドレス入力</h4>
-        <p>
-          <input class="form-control" type="text" placeholder="xxx@his-germany.de" />
-        </p>
+        <p><input class="form-control" type="text" placeholder="xxx@his-germany.de" /></p>
       </div>
     </div>
   </div>
@@ -657,11 +643,14 @@
 <script src="js/bootstrap.js"></script> 
 <script src="js/bootstrap-select.js"></script> 
 <script src="js/bootstrap-switch.js"></script> 
-<script src="js/bootstrap-modalmanager.js"></script> 
-<script src="js/bootstrap-modal.js"></script> 
+<script src="js/bootstrap-modalmanager.js"></script>
+<script src="js/bootstrap-modal.js"></script>
 <script src="js/custom.js"></script> 
 <script src="js/flatui-checkbox.js"></script> 
 <script src="js/flatui-radio.js"></script> 
 <script src="js/application.js"></script>
+
+
+
 </body>
 </html>
