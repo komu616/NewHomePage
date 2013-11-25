@@ -100,6 +100,20 @@ form .submit-button button.btn{
 	margin:3px 0 0 10px;
 }
 
+
+.outbound-product .nav > li{
+	width:71px;
+	padding:0;
+	
+}
+.outbound-product .nav > li > a{
+	padding:0;
+	
+}
+
+.outbound-product .nav > li > a > img {
+	width:71px;
+}
 }
 @media (max-width: 992px) {
 }
