@@ -3249,26 +3249,31 @@ h4.flightSpecialTtl {
 	height:auto;
 	margin:0 2px 5px 0;
 }
+.air-panel .seasonarity {
+	font-size:12px;
+}
+.air-panel .seasonarity .label {
+	font-size:12px;
+	position:relative; 
+	top:-4px;
+	border-radius: 0;
+	padding: .2em .4em .2em;
+}
+.air-panel .seasonarity p {
+	margin:0 0 5px 0;
+}
 .air-panel .price25 {
 	font-size:22px;
 	font-weight:bold;
 	color:#FF4950;
-	padding:0 3px 0 3px;
-}
-.air-panel .endDate {
-	font-size:12px;
-	font-weight:bold;
-	color:#FFF;
-	background:#d9534f;
-	max-width:70px;
-	padding:3px;
-	margin:0 5px 0 0;
-}
-.air-panel .seasonarity {
-	font-size:12px;
+	padding:0;
+	margin: 0;
 }
 .air-panel .glyphicon-chevron-right {
-	left:-1%;
+	float: right;
+	position:relative;
+	top:3px;
+	right:2%;
 }
 .flightSpecialRow a {
 	color:#444444;
@@ -3311,9 +3316,9 @@ h4.flightSpecialTtl {
 	font-size:14px;
 }
 .flightSpecialRow a .overlay, .flightSpecialRow a .overlay h4 {
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	transition: all 0.8s ease;
 }
 
 .section h1, .section-colored h1{
@@ -3322,27 +3327,34 @@ h4.flightSpecialTtl {
 .outbound-product h1{
 	color:#2793D3;
 }
-.outbound-product .nav {
+.outbound-product .nav, .inbound-product .nav {
 padding-left: 0;
 margin-bottom: 20px;
 }
-.outbound-product .nav > li > a {
+.outbound-product .nav > li > a, .inbound-product .nav > li > a {
 position: relative;
 display: block;
 background:none;
 opacity:0.6;
 }
-.outbound-product .nav > li > a:hover {
+.outbound-product .nav > li > a:hover, .inbound-product .nav > li > a:hover {
 background:none;
 }
-.outbound-product .nav > li > a:hover, .outbound-product .nav > li.active > a {
+.outbound-product .nav > li > a:hover, .outbound-product .nav > li.active > a, 
+.inbound-product .nav > li > a:hover, .inbound-product .nav > li.active > a {
 opacity:1;
 }
-
 .product-outer .seasonarity {
 	font-size:12px;
 	padding:0 5px 0 0;
 	float:right;
+}
+.product-outer .seasonarity .label {
+	font-size:12px;
+	position:relative; 
+	top:-4px;
+	border-radius: 0;
+	padding: .2em .4em .2em;
 }
 .product-outer .price25 {
 	font-size:22px;
@@ -3350,29 +3362,27 @@ opacity:1;
 	color:#FF4950;
 	padding:0 3px 0 15px;
 }
-.product-outer .endDate {
-	font-size:12px;
-	font-weight:bold;
-	color:#FFF;
-	background:#d9534f;
-	max-width:70px;
-	padding:3px;
-	margin:0 5px 0 0;
-}
-.outbound-product .product-outer {
+.outbound-product .product-outer, .inbound-product .product-outer {
 	margin:0 0 15px 0;
 }
 .outbound-product .product-outer h5 {
 	color:#2793D3;
 	font-weight:600;
 }
-.outbound-product a {
+.inbound-product h1{
+	color:#E95E4F;
+}
+.inbound-product .product-outer h5 {
+	color:#E95E4F;
+	font-weight:600;
+}
+.outbound-product a, .inbound-product a {
 	color:#444444;
 }
-.outbound-product a:hover .product-outer {
+.outbound-product a:hover .product-outer, .inbound-product a:hover .product-outer {
 	color:#888888;
 }
-.outbound-product a .overlay {
+.outbound-product a .overlay, .inbound-product a .overlay {
 	visibility: hidden;
 	left: 5%;
 	position: absolute;
@@ -3382,11 +3392,11 @@ opacity:1;
 	padding-top: 40px;
 	color:#444444;
 }
-.outbound-product a:hover .overlay {
+.outbound-product a:hover .overlay, .inbound-product a:hover .overlay {
 	visibility: visible;
 	background: rgba(255, 255, 255, 0.8);
 }
-.outbound-product a .overlay h4 {
+.outbound-product a .overlay h4, .inbound-product a .overlay h4 {
 	text-align: center;
 	top:30%;
 	right:-22%;
@@ -3396,24 +3406,22 @@ opacity:1;
 	display: block;
 	border-radius:4px;
 }
-.outbound-product a:hover .overlay h4 {
+.outbound-product a:hover .overlay h4, .inbound-product a:hover .overlay h4 {
 	top:15%;
 	right:-22%;
 	color:#FFF;
 	background:rgba(35, 50, 65, 0.9);
 	display: block;
 }
-.outbound-product a .overlay .glyphicon {
+.outbound-product a .overlay .glyphicon, .inbound-product a .overlay .glyphicon {
 	font-size:14px;
 }
-.outbound-product a .overlay, .outbound-product a .overlay h4 {
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+.outbound-product a .overlay, .outbound-product a .overlay h4,
+.inbound-product a .overlay, .inbound-product a .overlay h4 {
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	transition: all 0.8s ease;
 }
-
-
-
 .section-colored {
 	background-color:#F9F4ED; /* change this to change the background color of a colored section */
 }
