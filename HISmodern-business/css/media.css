@@ -33,6 +33,10 @@ h2,
 h2.white {
   font-size: 18px;
 }
+h5,
+.h5 {
+  font-size: 12px;
+}
 .form-control {
 	padding: 0px 12px 0 40px;
 	margin: 2px 0px;
@@ -57,6 +61,9 @@ h2.white {
 .leftmain{
 	border: none;
 	border-radius:0;
+}
+.leftmain .nav-tabs > li > a {
+padding: 10px 14px;
 }
 .form-control + .input-icon {
 	top: 5px;
