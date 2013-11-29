@@ -6,7 +6,7 @@
 }
 @media (min-width: 768px) {
 .lead {
-	font-size: 21px;
+font-size: 2.1rem;
 }
 }
 
@@ -23,27 +23,18 @@ margin: 0;
 }
 h1,
 .h1 {
-  font-size: 20px;
+font-size: 2rem;
 }
-
 h2,
 .h2 {
-  font-size: 20px;
+font-size: 2rem;
 }
 h2.white {
-  font-size: 18px;
+font-size: 1.8rem;
 }
 h5,
 .h5 {
-  font-size: 12px;
-}
-.form-control {
-	padding: 0px 12px 0 40px;
-	margin: 2px 0px;
-	height: 35px;
-}
-.form-group{
-	margin:0;
+  font-size: 1.2rem;
 }
 .navbar .container{
 	padding:0;	
@@ -63,63 +54,81 @@ h5,
 	border-radius:0;
 }
 .leftmain .nav-tabs > li > a {
-padding: 10px 14px;
+padding: 1rem 1.4rem;
+}
+.form-control {
+	padding: 0 1.2rem 0 4rem;
+	margin: 0.2rem 0;
+	height: 4.4rem;
 }
 .form-control + .input-icon {
-	top: 5px;
-	left: 20px;
+	top: 0.7rem;
+	left: 0.8rem;
 	vertical-align: middle;
-	font-size: 22px;
-	padding: 0 12px 0 0;
+	font-size: 2.2rem;
+	padding: 0 1.2rem 0 0;
 }
-.select.select-block {
-	margin: 3px 0 0 0;
+.select-block-outer:first-child{
+	padding-bottom: 1.2rem;	
+}
+.select-block-outer{
+	padding: 0;	
 }
 
+.select.select-block {
+	margin: 0;
+}
 .select .btn, .select .btn:hover, .select .btn:focus {
 	margin:0;
-	padding: 3px 8px 4px 5px;
+	padding: 0.9rem 0.8rem 0.9rem 0.5rem;
+}
+.select .btn .glyphicon, .select .btn:hover .glyphicon, .select .btn:focus .glyphicon {
+top: -0.2rem;
+left: 0.3rem;
 }
 .select .btn .filter-option {
-	left: 12px;
-	overflow: hidden;
+	left: -14.4rem;
+	overflow: visible ;
 	position: absolute;
-	top: 3px;
+	top: 1rem;
 }
-/*.select .btn .glyphicon {
-	display:none;
-}*/
+.select .btn .caret-outer {
+background: #2793D3;
+position: absolute;
+top: 0.2rem;
+right: 0.2rem;
+padding: 1.9rem;
+}
 .select .btn .caret {
 	position: absolute;
-	right: 7px;
-	margin-top: 11px;
-}
-.radio, .checkbox {
-padding-left: 20px;
-margin: 0px;
-/*margin-bottom: 10px;
-vertical-align: middle;
-form .submit-button button.btn{
-	font-size:14px;*/
+	right: 1.2rem;
+	margin-top: 0.2rem;
 }
 .help-block {
 	display: block;
-	margin:3px 0 0 10px;
+	margin: 0 0 0 0.5rem;
 }
-
-
+.radio-outer{
+	padding-top: 0.5rem;
+}
+.switch-outer{
+	padding: 0;
+	margin: 0 0 1rem 0;
+}
+.switch-word {
+font-size: 1.2rem;
+padding: 0 0 0 0.5rem;
+top: -0.5rem;
+}
 .outbound-product .nav > li{
-	width:71px;
+	width:7.1rem;
 	padding:0;
-	
 }
 .outbound-product .nav > li > a{
 	padding:0;
-	
 }
-
 .outbound-product .nav > li > a > img {
-	width:71px;
+	width:7.1rem;
 }
 }
 @media (max-width: 992px) {
@@ -145,7 +154,7 @@ form .submit-button button.btn{
 @-webkit-keyframes sharp {
  0% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(0deg);
  -moz-transform: rotate(0deg);
  -ms-transform: rotate(0deg);
@@ -163,7 +172,7 @@ form .submit-button button.btn{
 }
  100% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
@@ -174,7 +183,7 @@ form .submit-button button.btn{
 @-webkit-keyframes sharp {
  0% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(0deg);
  -moz-transform: rotate(0deg);
  -ms-transform: rotate(0deg);
@@ -192,7 +201,7 @@ form .submit-button button.btn{
 }
  100% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
@@ -203,7 +212,7 @@ form .submit-button button.btn{
 @-moz-keyframes sharp {
  0% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(0deg);
  -moz-transform: rotate(0deg);
  -ms-transform: rotate(0deg);
@@ -221,7 +230,7 @@ form .submit-button button.btn{
 }
  100% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
@@ -232,7 +241,7 @@ form .submit-button button.btn{
 @-o-keyframes sharp {
  0% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(0deg);
  -moz-transform: rotate(0deg);
  -ms-transform: rotate(0deg);
@@ -250,7 +259,7 @@ form .submit-button button.btn{
 }
  100% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
@@ -261,7 +270,7 @@ form .submit-button button.btn{
 @keyframes sharp {
  0% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(0deg);
  -moz-transform: rotate(0deg);
  -ms-transform: rotate(0deg);
@@ -279,7 +288,7 @@ form .submit-button button.btn{
 }
  100% {
  background: #e74c3c;
- border-radius: 10px;
+ border-radius: 1rem;
  -webkit-transform: rotate(360deg);
  -moz-transform: rotate(360deg);
  -ms-transform: rotate(360deg);
